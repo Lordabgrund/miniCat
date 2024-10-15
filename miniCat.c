@@ -2,7 +2,6 @@
 
 int main(int argc, char *argv[])
 {
-   // char filename[200];
     FILE *fp = fopen(argv[1], "r");
 
     if (fp == NULL)
